@@ -12,6 +12,8 @@ spec:
       app: srsran
       component: gnb
   replicas: 1
+  strategy:
+    type: Recreate
   template:
     metadata:
       labels:
@@ -19,7 +21,8 @@ spec:
         component: gnb
       annotations:
         k8s.v1.cni.cncf.io/networks: '[
-          { "name": "n3network", "interface": "n3", "ips": [ "10.10.3.231/24" ] }
+          { "name": "n3network", "interface": "n3", "ips": [ "10.10.3.231/24" ] },
+          { "name": "e2network", "interface": "e2", "ips": [ "10.10.4.231/24" ] }
           ]'
     spec:
       # nodeSelector:
