@@ -1,0 +1,1 @@
+{"nodes": [{"id": "etcd_rules", "label": "Etcd Prometheus Rules", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus/rules-1.14/etcd.yaml"}], "edges": [], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "alertmanager_alertmanager_cr", "label": "Alertmanager Custom Resource", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/alertmanager/alertmanager.yaml"}], "edges": [], "hyperedges": []}

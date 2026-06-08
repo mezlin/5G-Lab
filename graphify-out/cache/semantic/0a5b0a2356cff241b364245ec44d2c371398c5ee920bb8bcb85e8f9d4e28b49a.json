@@ -1,0 +1,1 @@
+{"nodes": [{"id": "namespace_by_workload_configmap", "label": "Namespace by Workload Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/namespace-by-workload.yaml"}], "edges": [], "hyperedges": []}

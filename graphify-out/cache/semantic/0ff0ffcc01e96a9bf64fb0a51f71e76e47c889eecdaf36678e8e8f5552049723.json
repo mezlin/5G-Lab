@@ -1,0 +1,1 @@
+{"nodes": [{"id": "open5gs_smf1", "label": "Open5GS SMF Slice 1", "file_type": "code", "source_file": "configs/open5gs/open5gs/slices/slice1/smf1/smf-service.yaml"}], "edges": [], "hyperedges": []}

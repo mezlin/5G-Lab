@@ -1,0 +1,1 @@
+{"nodes": [{"id": "prometheus_dashboard_configmap", "label": "Prometheus Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/prometheus.yaml"}], "edges": [], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "kube_apiserver_availability_rules_availability30d", "label": "apiserver_request:availability30d", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus/rules-1.14/kube-apiserver-availability.rules.yaml", "source_location": null}], "edges": [], "hyperedges": []}

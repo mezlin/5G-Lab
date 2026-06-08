@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "open5gs_nrf", "target": "open5gs_mongodb", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "configs/open5gs/open5gs/common/nrf/nrf-deployment.yaml"}], "hyperedges": []}

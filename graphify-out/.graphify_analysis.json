@@ -1,0 +1,682 @@
+{
+  "communities": {
+    "0": [
+      "data_subscribers",
+      "data_subscribers_copy",
+      "data_subscribers_copy_security_amf",
+      "data_subscribers_copy_security_k",
+      "data_subscribers_copy_security_op",
+      "data_subscribers_copy_security_opc",
+      "data_subscribers_copy_subscriber_1_access_restriction_data",
+      "data_subscribers_copy_subscriber_1_id",
+      "data_subscribers_copy_subscriber_1_imsi",
+      "data_subscribers_copy_subscriber_1_network_access_mode",
+      "data_subscribers_copy_subscriber_1_security",
+      "data_subscribers_copy_subscriber_1_slice",
+      "data_subscribers_copy_subscriber_1_subscribed_rau_tau_timer",
+      "data_subscribers_copy_subscriber_1_subscriber_status",
+      "data_subscribers_copy_subscriber_1_v",
+      "data_subscribers_subscriber_1",
+      "data_subscribers_subscriber_1_access_restriction_data",
+      "data_subscribers_subscriber_1_id",
+      "data_subscribers_subscriber_1_imsi",
+      "data_subscribers_subscriber_1_network_access_mode",
+      "data_subscribers_subscriber_1_slice",
+      "data_subscribers_subscriber_1_subscribed_rau_tau_timer",
+      "data_subscribers_subscriber_1_subscriber_status",
+      "data_subscribers_subscriber_1_v"
+    ],
+    "1": [
+      "prometheus_dashboard",
+      "prometheus_dashboard_annotations",
+      "prometheus_dashboard_editable",
+      "prometheus_dashboard_fiscalyearstartmonth",
+      "prometheus_dashboard_graphtooltip",
+      "prometheus_dashboard_id",
+      "prometheus_dashboard_links",
+      "prometheus_dashboard_panels",
+      "prometheus_dashboard_refresh",
+      "prometheus_dashboard_schemaversion",
+      "prometheus_dashboard_tags",
+      "prometheus_dashboard_templating",
+      "prometheus_dashboard_templating_list",
+      "prometheus_dashboard_time",
+      "prometheus_dashboard_time_from",
+      "prometheus_dashboard_time_to",
+      "prometheus_dashboard_timepicker",
+      "prometheus_dashboard_timezone",
+      "prometheus_dashboard_title",
+      "prometheus_dashboard_uid",
+      "prometheus_dashboard_version",
+      "prometheus_dashboard_weekstart"
+    ],
+    "2": [
+      "mongo_tools_list_subscribers",
+      "mongo_tools_modify_subscribers",
+      "mongo_tools_open5gs",
+      "mongo_tools_open5gs_open5gs",
+      "mongo_tools_open5gs_open5gs_add_subscriber",
+      "mongo_tools_open5gs_open5gs_connect_to_mongodb",
+      "mongo_tools_open5gs_open5gs_delete_subscriber",
+      "mongo_tools_open5gs_open5gs_get_subscriber",
+      "mongo_tools_open5gs_open5gs_init",
+      "mongo_tools_open5gs_open5gs_update_subscriber",
+      "mongo_tools_open5gs_status",
+      "mongo_tools_open5gs_type",
+      "mongo_tools_open5gs_unit"
+    ],
+    "3": [
+      "scripts_qos_rule",
+      "scripts_qos_rule_deviceid",
+      "scripts_qos_rule_ispermanent",
+      "scripts_qos_rule_priority",
+      "scripts_qos_rule_selector",
+      "scripts_qos_rule_selector_criteria",
+      "scripts_qos_rule_timeout",
+      "scripts_qos_rule_treatment",
+      "scripts_qos_rule_treatment_instructions"
+    ],
+    "4": [
+      "scripts_qos_rule_old",
+      "scripts_qos_rule_old_deviceid",
+      "scripts_qos_rule_old_ispermanent",
+      "scripts_qos_rule_old_priority",
+      "scripts_qos_rule_old_selector",
+      "scripts_qos_rule_old_selector_criteria",
+      "scripts_qos_rule_old_timeout",
+      "scripts_qos_rule_old_treatment",
+      "scripts_qos_rule_old_treatment_instructions"
+    ],
+    "5": [
+      "data_slices",
+      "data_slices_slice_1",
+      "data_slices_slice_1_default_indicator",
+      "data_slices_slice_1_sd",
+      "data_slices_slice_1_session",
+      "data_slices_slice_1_sst",
+      "data_slices_slice_2",
+      "data_slices_slice_3"
+    ],
+    "6": [
+      "node_rsrc_use_configmap",
+      "prometheus_cluster_role",
+      "prometheus_cr",
+      "prometheus_scrape_config_secret",
+      "prometheus_service",
+      "prometheus_service_account"
+    ],
+    "7": [
+      "amf_deployment_open5gs_amf",
+      "network_attachments_ovs_n2network",
+      "prometheus_values_kube_prometheus_stack",
+      "readme_open5gs",
+      "readme_srsran"
+    ],
+    "8": [
+      "bin_k8s_shell",
+      "bin_k8s_shell_select_container",
+      "bin_k8s_shell_select_namespace",
+      "bin_k8s_shell_usage",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_shell_sh__entry"
+    ],
+    "9": [
+      "data_subscribers_ambr_downlink",
+      "data_subscribers_ambr_uplink",
+      "data_subscribers_subscriber_1_ambr",
+      "data_subscribers_uplink_unit",
+      "data_subscribers_uplink_value"
+    ],
+    "10": [
+      "data_subscribers_copy_ambr_downlink",
+      "data_subscribers_copy_ambr_uplink",
+      "data_subscribers_copy_subscriber_1_ambr",
+      "data_subscribers_copy_uplink_unit",
+      "data_subscribers_copy_uplink_value"
+    ],
+    "11": [
+      "data_subscribers_security_amf",
+      "data_subscribers_security_k",
+      "data_subscribers_security_op",
+      "data_subscribers_security_opc",
+      "data_subscribers_subscriber_1_security"
+    ],
+    "12": [
+      "mongo_tools_generate_data",
+      "mongo_tools_generate_data_create_slices",
+      "mongo_tools_generate_data_create_subscribers",
+      "mongo_tools_generate_data_generate_slice_data",
+      "mongo_tools_generate_data_generate_subscriber_data"
+    ],
+    "13": [
+      "alertmanager_overview_configmap",
+      "apiserver_configmap",
+      "kube_prometheus_stack_grafana_namespace",
+      "namespace_by_pod_configmap"
+    ],
+    "14": [
+      "amf_logs_amf_service",
+      "amf_logs_ngap_message",
+      "gnb_logs_gnb_service",
+      "gnb_logs_sctp_association"
+    ],
+    "15": [
+      "atomix_chart",
+      "local_netplan_n3br",
+      "onos_classic_chart",
+      "onos_config_loader"
+    ],
+    "16": [
+      "gnb_deployment_srsran_gnb",
+      "gnb_service_gnb_service",
+      "srsran_gnb_config",
+      "ue_deployment_srsran_ue1"
+    ],
+    "17": [
+      "test_grafana_test_pod",
+      "test_role_grafana_test_role",
+      "test_rolebinding_grafana_test_rolebinding",
+      "test_serviceaccount_grafana_test_sa"
+    ],
+    "18": [
+      "bin_k8s_resources",
+      "bin_k8s_resources_usage",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_resources_sh__entry"
+    ],
+    "19": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_prometheus_install_sh__entry",
+      "prometheus_install",
+      "prometheus_uninstall"
+    ],
+    "20": [
+      "config_multi_ue_scenario",
+      "config_multi_ue_scenario_main",
+      "config_multi_ue_scenario_multi_ue_scenario_init"
+    ],
+    "21": [
+      "crd_servicemonitors",
+      "kube_state_metrics_service",
+      "kube_state_metrics_servicemonitor"
+    ],
+    "22": [
+      "data_config",
+      "data_config_num_slices",
+      "data_config_num_subscribers"
+    ],
+    "23": [
+      "k8s_resources_pod_configmap",
+      "k8s_resources_workload_configmap",
+      "k8s_resources_workloads_namespace_configmap"
+    ],
+    "24": [
+      "mongo_tools_port_forwarding",
+      "mongo_tools_port_forwarding_rationale_9",
+      "mongo_tools_port_forwarding_run_with_port_forwarding"
+    ],
+    "25": [
+      "open5gs_amf",
+      "open5gs_mongodb",
+      "open5gs_nrf"
+    ],
+    "26": [
+      "ue_logs_logging_system",
+      "ue_logs_screenshot",
+      "ue_logs_unreal_engine"
+    ],
+    "27": [
+      "alertmanager_alertmanager_cr",
+      "alertmanager_servicemonitor"
+    ],
+    "28": [
+      "bin_connect_to_host",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_connect_to_host_sh__entry"
+    ],
+    "29": [
+      "bin_k8s_cpy",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_cpy_sh__entry"
+    ],
+    "30": [
+      "bin_k8s_describe",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_describe_sh__entry"
+    ],
+    "31": [
+      "bin_k8s_exec",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_exec_sh__entry"
+    ],
+    "32": [
+      "bin_k8s_log",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_log_sh__entry"
+    ],
+    "33": [
+      "bin_k8s_python",
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_python_sh__entry"
+    ],
+    "34": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_add_queue_sh__entry",
+      "scripts_add_queue"
+    ],
+    "35": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_delete_flow_sh__entry",
+      "scripts_delete_flow"
+    ],
+    "36": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_delete_queues_sh__entry",
+      "scripts_delete_queues"
+    ],
+    "37": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_get_flows_sh__entry",
+      "scripts_get_flows"
+    ],
+    "38": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_install_rule_sh__entry",
+      "scripts_install_rule"
+    ],
+    "39": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_list_queues_sh__entry",
+      "scripts_list_queues"
+    ],
+    "40": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_onos_scripts_update_queue_sh__entry",
+      "scripts_update_queue"
+    ],
+    "41": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_srsran_srsran_gnb_config_start_gnb_sh__entry",
+      "config_start_gnb"
+    ],
+    "42": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_srsran_srsran_gnb_config_wrapper_sh__entry",
+      "configs_srsran_srsran_gnb_config_wrapper_sh_config_wrapper"
+    ],
+    "43": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_ues_srsue_config_add_route_sh__entry",
+      "config_add_route"
+    ],
+    "44": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_ues_srsue_config_start_gnu_sh__entry",
+      "config_start_gnu"
+    ],
+    "45": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_ues_srsue_config_start_ue_sh__entry",
+      "config_start_ue"
+    ],
+    "46": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_configs_ues_srsue_config_wrapper_sh__entry",
+      "configs_ues_srsue_config_wrapper_sh_config_wrapper"
+    ],
+    "47": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_scripts_fix_multus_sh__entry",
+      "scripts_fix_multus"
+    ],
+    "48": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_scripts_set_bw_sh__entry",
+      "scripts_set_bw"
+    ],
+    "49": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_scripts_set_cgroup_cpu_sh__entry",
+      "scripts_set_cgroup_cpu"
+    ],
+    "50": [
+      "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_scripts_set_cpu_sh__entry",
+      "scripts_set_cpu"
+    ],
+    "51": [
+      "grafana_chart",
+      "prometheus_stack"
+    ],
+    "52": [
+      "grafana_datasource_configmap",
+      "prometheus_ingress"
+    ],
+    "53": [
+      "k8s_rules",
+      "pod_total_configmap"
+    ],
+    "54": [
+      "kube_apiserver_burnrate_rules_burnrate1h",
+      "kube_apiserver_slos_kubeapierrorbudgetburn"
+    ],
+    "55": [
+      "mongo_tools_list_databases",
+      "mongo_tools_list_databases_get_available_databases"
+    ],
+    "56": [
+      "onos_readme_onos",
+      "onos_values_onos_classic"
+    ],
+    "57": [
+      "open5gs_smf1",
+      "open5gs_upf1"
+    ],
+    "58": [
+      "prometheus_node_exporter_daemonset",
+      "prometheus_node_exporter_servicemonitor"
+    ],
+    "59": [
+      "prometheus_operator_deployment",
+      "prometheus_operator_service"
+    ],
+    "60": [
+      "smf_deployment_open5gs_smf1",
+      "upf_deployment_open5gs_upf1"
+    ],
+    "61": [
+      "alertmanager_rules"
+    ],
+    "62": [
+      "cluster_total_configmap"
+    ],
+    "63": [
+      "config_generate_ue_conf"
+    ],
+    "64": [
+      "controller_manager_configmap"
+    ],
+    "65": [
+      "dashboards_custom_dashboard"
+    ],
+    "66": [
+      "etcd_configmap"
+    ],
+    "67": [
+      "etcd_rules"
+    ],
+    "68": [
+      "general_rules_targetdown"
+    ],
+    "69": [
+      "gnu_logs_gnu_process"
+    ],
+    "70": [
+      "grafana_overview_configmap"
+    ],
+    "71": [
+      "iperf_deployment_iperf2_server"
+    ],
+    "72": [
+      "k8s_coredns_configmap"
+    ],
+    "73": [
+      "k8s_resources_cluster_configmap"
+    ],
+    "74": [
+      "k8s_resources_namespace_configmap"
+    ],
+    "75": [
+      "k8s_resources_node_configmap"
+    ],
+    "76": [
+      "kube_apiserver_availability_rules_availability30d"
+    ],
+    "77": [
+      "kube_state_metrics_deployment"
+    ],
+    "78": [
+      "kubelet_configmap"
+    ],
+    "79": [
+      "local_netplan_br1"
+    ],
+    "80": [
+      "mongo_tools_add_admin_account"
+    ],
+    "81": [
+      "mongo_tools_init"
+    ],
+    "82": [
+      "mongo_tools_logger"
+    ],
+    "83": [
+      "mongodb_deployment_mongodb"
+    ],
+    "84": [
+      "namespace_by_workload_configmap"
+    ],
+    "85": [
+      "node_cluster_rsrc_use_configmap"
+    ],
+    "86": [
+      "nodes_configmap"
+    ],
+    "87": [
+      "open5gs_ausf"
+    ],
+    "88": [
+      "persistentvolumesusage_configmap"
+    ],
+    "89": [
+      "prometheus_dashboard_configmap"
+    ],
+    "90": [
+      "prometheus_delete_prometheus_crds"
+    ],
+    "91": [
+      "prometheus_remote_write_configmap"
+    ],
+    "92": [
+      "proxy_configmap"
+    ],
+    "93": [
+      "readme_testbed_automator"
+    ],
+    "94": [
+      "scheduler_configmap"
+    ],
+    "95": [
+      "vm_netplan_br_int"
+    ],
+    "96": [
+      "workload_total_configmap"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08333333333333333,
+    "1": 0.09523809523809523,
+    "2": 0.21794871794871795,
+    "3": 0.2222222222222222,
+    "4": 0.2222222222222222,
+    "5": 0.5357142857142857,
+    "6": 0.3333333333333333,
+    "7": 0.4,
+    "8": 0.7,
+    "9": 0.6,
+    "10": 0.6,
+    "11": 0.4,
+    "12": 0.6,
+    "13": 0.5,
+    "14": 0.5,
+    "15": 0.5,
+    "16": 0.5,
+    "17": 0.5,
+    "18": 1.0,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 0.6666666666666666,
+    "24": 0.6666666666666666,
+    "25": 0.6666666666666666,
+    "26": 0.6666666666666666,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0
+  },
+  "gods": [
+    {
+      "id": "data_subscribers_subscriber_1",
+      "label": "subscriber_1",
+      "degree": 23
+    },
+    {
+      "id": "mongo_tools_open5gs_open5gs",
+      "label": "Open5GS",
+      "degree": 8
+    },
+    {
+      "id": "data_slices_slice_1",
+      "label": "slice_1",
+      "degree": 5
+    },
+    {
+      "id": "data_slices_slice_2",
+      "label": "slice_2",
+      "degree": 5
+    },
+    {
+      "id": "data_slices_slice_3",
+      "label": "slice_3",
+      "degree": 5
+    },
+    {
+      "id": "data_subscribers_copy_subscriber_1_security",
+      "label": "security",
+      "degree": 5
+    },
+    {
+      "id": "data_subscribers_subscriber_1_security",
+      "label": "security",
+      "degree": 5
+    },
+    {
+      "id": "c_users_mezsi_documents_intern2_5g_lab_k8s_srsran_open5gs_bin_k8s_shell_sh__entry",
+      "label": "k8s-shell.sh script",
+      "degree": 4
+    },
+    {
+      "id": "prometheus_cr",
+      "label": "Prometheus Custom Resource",
+      "degree": 4
+    },
+    {
+      "id": "data_slices_slice_1_sst",
+      "label": "sst",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "open5gs-amf",
+      "target": "Open5GS",
+      "source_files": [
+        "configs/open5gs/open5gs/common/amf/amf-deployment.yaml",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "kube-prometheus-stack",
+      "target": "Open5GS",
+      "source_files": [
+        "configs/prometheus/kube-prometheus-values-nuc.yaml",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "srsRAN UE1 Deployment",
+      "target": "srsRAN gNB Deployment",
+      "source_files": [
+        "configs/ues/srsue/ue-deployment.yaml",
+        "configs/srsRAN/srsran-gnb/gnb-deployment.yaml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Node Resource Use Dashboard",
+      "target": "Prometheus Custom Resource",
+      "source_files": [
+        "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/node-rsrc-use.yaml",
+        "configs/prometheus/kube-prometheus-stack/templates/prometheus/prometheus.yaml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "Pod Total Dashboard",
+      "target": "K8s Recording Rules",
+      "source_files": [
+        "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/pod-total.yaml",
+        "configs/prometheus/kube-prometheus-stack/templates/prometheus/rules-1.14/k8s.rules.yaml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "tokens": {
+    "input": 207372,
+    "output": 5073
+  }
+}

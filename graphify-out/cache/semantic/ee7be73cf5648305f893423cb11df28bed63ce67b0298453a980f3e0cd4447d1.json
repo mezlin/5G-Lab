@@ -1,0 +1,1 @@
+{"nodes": [{"id": "scheduler_configmap", "label": "Kube Scheduler Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/scheduler.yaml"}], "edges": [], "hyperedges": []}

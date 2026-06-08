@@ -1,0 +1,1 @@
+{"nodes": [{"id": "prometheus_service_account", "label": "Prometheus Service Account", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus/serviceaccount.yaml"}], "edges": [], "hyperedges": []}

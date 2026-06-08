@@ -1,0 +1,1 @@
+{"nodes": [{"id": "persistentvolumesusage_configmap", "label": "Persistent Volumes Usage Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/persistentvolumesusage.yaml"}], "edges": [], "hyperedges": []}

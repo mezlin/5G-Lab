@@ -1,0 +1,1 @@
+{"nodes": [{"id": "crd_servicemonitors", "label": "ServiceMonitor CRD", "file_type": "document", "source_file": "configs/prometheus/kube-prometheus-stack/crds/crd-servicemonitors.yaml"}], "edges": [], "hyperedges": []}

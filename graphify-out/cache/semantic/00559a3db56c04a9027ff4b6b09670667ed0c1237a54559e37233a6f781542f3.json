@@ -1,0 +1,1 @@
+{"nodes": [{"id": "kube_apiserver_burnrate_rules_burnrate1h", "label": "apiserver_request:burnrate1h", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus/rules-1.14/kube-apiserver-burnrate.rules.yaml", "source_location": null}], "edges": [], "hyperedges": []}

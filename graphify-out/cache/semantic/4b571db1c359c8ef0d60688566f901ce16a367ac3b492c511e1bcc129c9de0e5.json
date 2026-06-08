@@ -1,0 +1,1 @@
+{"nodes": [{"id": "onos_config_loader", "label": "ONOS Config Loader", "file_type": "code", "source_file": "configs/onos/onos-classic/templates/onos-config-loader.yaml"}], "edges": [], "hyperedges": []}

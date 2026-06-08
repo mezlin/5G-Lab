@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "onos_config_loader", "target": "onos_classic_chart", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "configs/onos/onos-classic/templates/onos-config-loader-script.yaml"}], "hyperedges": []}

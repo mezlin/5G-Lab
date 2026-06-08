@@ -1,0 +1,1 @@
+{"nodes": [{"id": "vm_netplan_br_int", "label": "Bridge br-int", "file_type": "code", "source_file": "configs/onos/vm_netplan.yaml", "source_location": "bridges.br-int"}], "edges": [], "hyperedges": []}

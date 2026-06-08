@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [{"source": "iperf_deployment_iperf2_server", "target": "iperf_service_iperf2_server_service", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "configs/iperf/kustomization.yaml", "source_location": null, "weight": 1.0}], "hyperedges": []}

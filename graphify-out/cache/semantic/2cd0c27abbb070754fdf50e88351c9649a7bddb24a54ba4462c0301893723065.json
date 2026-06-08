@@ -1,0 +1,1 @@
+{"nodes": [{"id": "workload_total_configmap", "label": "Workload Total Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/workload-total.yaml"}], "edges": [], "hyperedges": []}
