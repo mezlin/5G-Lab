@@ -14,7 +14,8 @@ spec:
         app: flexric
       annotations:
         k8s.v1.cni.cncf.io/networks: '[
-          { "name": "e2network", "interface": "e2", "ips": [ "10.10.4.100/24" ] }
+          { "name": "e2network", "interface": "e2", "ips": [ "10.10.4.100/24" ] },
+          { "name": "a1network", "interface": "a1", "ips": [ "10.10.5.100/24" ] }
           ]'
     spec:
       containers:

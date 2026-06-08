@@ -1,0 +1,48 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nonrt-ric
+  namespace: nonrt-ric
+  labels:
+    app: nonrt-ric
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nonrt-ric
+  template:
+    metadata:
+      labels:
+        app: nonrt-ric
+      annotations:
+        k8s.v1.cni.cncf.io/networks: '[
+          { "name": "a1network", "interface": "a1", "ips": [ "10.10.5.200/24" ] }
+          ]'
+    spec:
+      containers:
+      - name: jupyter-ai
+        image: jupyter/scipy-notebook:latest
+        ports:
+        - containerPort: 8888
+        env:
+        - name: JUPYTER_TOKEN
+          value: "oran"
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_ADMIN"]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nonrt-ric-svc
+  namespace: nonrt-ric
+spec:
+  selector:
+    app: nonrt-ric
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8888
+      targetPort: 8888
+      nodePort: 32088
