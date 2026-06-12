@@ -1,1 +1,0 @@
-{"nodes": [{"id": "kubelet_configmap", "label": "Kubelet Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/kubelet.yaml"}], "edges": [], "hyperedges": []}

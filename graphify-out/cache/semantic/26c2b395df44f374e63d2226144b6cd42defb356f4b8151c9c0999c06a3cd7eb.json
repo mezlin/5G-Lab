@@ -1,1 +1,0 @@
-{"nodes": [{"id": "apiserver_configmap", "label": "API Server Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/apiserver.yaml"}], "edges": [], "hyperedges": []}

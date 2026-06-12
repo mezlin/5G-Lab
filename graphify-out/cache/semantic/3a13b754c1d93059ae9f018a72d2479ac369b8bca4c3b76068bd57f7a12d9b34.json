@@ -1,1 +1,0 @@
-{"nodes": [{"id": "prometheus_remote_write_configmap", "label": "Prometheus Remote Write Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/prometheus-remote-write.yaml"}], "edges": [], "hyperedges": []}

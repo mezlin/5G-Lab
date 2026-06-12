@@ -1,1 +1,0 @@
-{"nodes": [{"id": "cluster_total_configmap", "label": "Cluster Total Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/cluster-total.yaml"}], "edges": [], "hyperedges": []}

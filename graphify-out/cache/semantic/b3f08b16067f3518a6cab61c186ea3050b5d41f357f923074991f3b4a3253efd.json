@@ -1,1 +1,0 @@
-{"nodes": [{"id": "kube_state_metrics_service", "label": "Kube State Metrics Service", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/charts/kube-state-metrics/templates/service.yaml"}], "edges": [], "hyperedges": []}

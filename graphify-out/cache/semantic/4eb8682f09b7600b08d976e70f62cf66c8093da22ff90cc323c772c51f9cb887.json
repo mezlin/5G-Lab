@@ -1,1 +1,0 @@
-{"nodes": [], "edges": [{"source": "open5gs_smf1", "target": "open5gs_upf1", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.9, "source_file": "configs/open5gs/open5gs/slices/slice1/kustomization.yaml"}], "hyperedges": []}

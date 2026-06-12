@@ -1,1 +1,0 @@
-{"nodes": [{"id": "prometheus_scrape_config_secret", "label": "Prometheus Scrape Config Secret", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus/additionalScrapeConfigs.yaml"}], "edges": [], "hyperedges": []}

@@ -1,1 +1,0 @@
-{"nodes": [{"id": "prometheus_operator_deployment", "label": "Prometheus Operator Deployment", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus-operator/deployment.yaml", "source_location": null}], "edges": [], "hyperedges": []}

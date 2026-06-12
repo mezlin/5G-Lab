@@ -1,1 +1,0 @@
-{"nodes": [{"id": "prometheus_ingress", "label": "Prometheus Ingress", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/prometheus/ingress.yaml"}], "edges": [], "hyperedges": []}

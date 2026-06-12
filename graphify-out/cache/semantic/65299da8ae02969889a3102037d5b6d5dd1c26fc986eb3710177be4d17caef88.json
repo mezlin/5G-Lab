@@ -1,1 +1,0 @@
-{"nodes": [{"id": "grafana_chart", "label": "Grafana Helm Chart", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/charts/grafana/Chart.yaml"}], "edges": [], "hyperedges": []}

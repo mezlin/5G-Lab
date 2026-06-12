@@ -1,1 +1,0 @@
-{"nodes": [{"id": "open5gs_mongodb", "label": "MongoDB Service", "file_type": "code", "source_file": "configs/open5gs/mongodb/mongodb-service.yaml"}], "edges": [], "hyperedges": []}

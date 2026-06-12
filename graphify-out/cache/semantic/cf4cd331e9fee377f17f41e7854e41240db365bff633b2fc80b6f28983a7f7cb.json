@@ -1,1 +1,0 @@
-{"nodes": [{"id": "controller_manager_configmap", "label": "Controller Manager Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/controller-manager.yaml"}], "edges": [], "hyperedges": []}

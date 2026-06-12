@@ -1,1 +1,0 @@
-{"nodes": [], "edges": [{"source": "smf_deployment_open5gs_smf1", "target": "upf_deployment_open5gs_upf1", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "configs/open5gs/open5gs/slices/slice1/smf1/smf-configmap.yaml", "source_location": null, "weight": 1.0}], "hyperedges": []}

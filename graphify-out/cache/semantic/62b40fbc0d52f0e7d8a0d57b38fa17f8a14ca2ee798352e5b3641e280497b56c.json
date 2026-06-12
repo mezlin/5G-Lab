@@ -1,1 +1,0 @@
-{"nodes": [{"id": "node_cluster_rsrc_use_configmap", "label": "Node Cluster Resource Use Dashboard", "file_type": "code", "source_file": "configs/prometheus/kube-prometheus-stack/templates/grafana/dashboards-1.14/node-cluster-rsrc-use.yaml"}], "edges": [], "hyperedges": []}
