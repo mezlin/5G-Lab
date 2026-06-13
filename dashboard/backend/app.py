@@ -22,7 +22,7 @@ client = genai.Client(api_key=API_KEY)
 pending_actions = {}
 
 system_prompt = """
-You are an O-RAN Network Assistant AI with a white/blue Nokia-inspired UI. 
+You are an O-RAN Network Assistant AI with a white/blue UI. 
 You can answer user questions about the network state.
 
 You have complete access to the network. You can query Prometheus metrics and read Kubernetes resources to find out anything you need.
