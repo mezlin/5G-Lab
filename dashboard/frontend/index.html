@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O-RAN AI Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="logo">O-RAN Intelligence Center</div>
+      <div class="counters">
+        <div class="counter-badge">
+          <span class="counter-label">Active gNBs</span>
+          <span class="counter-value" id="active-gnbs">0</span>
+        </div>
+        <div class="counter-badge">
+          <span class="counter-label">Active UEs</span>
+          <span class="counter-value" id="active-ues">0</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="chat-container">
+      <div class="chat-box" id="chat-box">
+        <div class="msg ai">
+          <div class="msg-avatar">AI</div>
+          <div class="msg-content">Hello! I am your O-RAN Network Assistant. How can I help you manage the network today?</div>
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="chat-input-field" placeholder="Ask about the network or request changes..." onkeypress="handleKeyPress(event)" />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
