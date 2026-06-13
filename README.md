@@ -1,4 +1,4 @@
-# IntelliRAN: E2E Containerized O-RAN 5G Network with LLM Integration
+# E2E Containerized O-RAN 5G Network with LLM Integration
 
 > **An End-to-End Containerized O-RAN 5G Testbed featuring an LLM-powered AI Management Dashboard.**
 
@@ -7,8 +7,6 @@
 > **Repository:** `https://github.com/mezlin/5G-Lab`
 > **Stack:** Open5GS v2.7.0 · srsRAN ZMQ · GNU Radio · Kubernetes 1.30 · Longhorn · Prometheus + Grafana
 > **Target:** Ubuntu 24.04, single-node Kubernetes cluster
-
-Tags: [[Intern2]]
 
 ---
 
@@ -38,12 +36,10 @@ Tags: [[Intern2]]
 
 | Resource | Minimum | Recommended |
 |---|---|---|
-| CPU | 8 cores | 16+ cores |
-| RAM | 16 GB | 32 GB |
+| CPU | 8 cores | 12+ cores |
+| RAM | 10 GB | 16+ GB |
 | Disk | 64 GB | 128 GB |
-| OS | Ubuntu 22.04 | Ubuntu 24.04 |
-
-> **Static IP strongly recommended.** Kubernetes stores the node IP in etcd. If the VM receives a different DHCP address after a reboot, the cluster will fail to start. Configure a static IP before beginning.
+| OS | Ubuntu 24.04 | Ubuntu 24.04 |
 
 ---
 
@@ -51,57 +47,17 @@ Tags: [[Intern2]]
 
 Every command in this section must be run before anything else.
 
-### 2.1 Set a static IP
-
-Find your current interface name and IP:
-
-```bash
-ip addr show
-ip route show default
-```
-
-Open the Netplan configuration file:
-
-```bash
-sudo nano /etc/netplan/00-installer-config.yaml
-```
-
-Replace the contents with the following, substituting your actual values:
-
-```yaml
-network:
-  version: 2
-  ethernets:
-    ens3:
-      dhcp4: false
-      addresses:
-        - 192.168.X.X/24
-      nameservers:
-        addresses: [8.8.8.8, 1.1.1.1]
-      routes:
-        - to: default
-          via: 192.168.X.1
-```
-
-Apply the configuration:
-
-```bash
-sudo netplan apply
-ip addr show
-```
-
-### 2.2 Disable swap
+### 2.1 Disable swap
 
 Kubernetes requires swap to be disabled. If active, kubeadm init will fail.
 
 ```bash
 sudo swapoff -a
-sudo sed -i '/[[:space:]]swap[[:space:]]/ s/^\(.*\)$/#\1/g' /etc/fstab
 free -h
 # Swap line must show 0B / 0B / 0B
 ```
 
-### 2.3 Load required kernel modules
+### 2.2 Load required kernel modules
 
 `overlay` and `br_netfilter` are required by the container runtime and pod networking. `sctp` is required for the gNB to communicate with the AMF over N2 — without it the gNB will fail with a silent connection error.
 
@@ -130,7 +86,7 @@ lsmod | grep -E "overlay|br_netfilter|sctp"
 # Must return three lines
 ```
 
-### 2.4 Configure sysctl parameters
+### 2.3 Configure sysctl parameters
 
 ```bash
 sudo tee /etc/sysctl.d/k8s.conf > /dev/null <<EOF
@@ -162,7 +118,7 @@ sysctl net.ipv4.ip_forward
 # Must return: net.ipv4.ip_forward = 1
 ```
 
-### 2.5 Install base utilities
+### 2.4 Install base utilities
 
 ```bash
 sudo apt-get update
@@ -816,7 +772,7 @@ PDU Session Establishment successful. IP: 10.41.0.x
 
 Two requirements that must both be met before running:
 
-1. The script must be run from inside `/srsran/config`. Running from any other directory causes `python3: can't open file './multi_ue_scenario.py': No such file or directory` because the script uses a relative path.
+1. The script must be run from inside `/`. Running from any other directory causes `python3: can't open file './multi_ue_scenario.py': No such file or directory` because the script uses a relative path.
 2. The GNU Radio prefs file must exist. Without it you get `vmcircbuf_createfilemapping: createfilemapping is not available`.
 
 ```bash
