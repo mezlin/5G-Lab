@@ -29,6 +29,7 @@
 15. [Step 13: Validate End-to-End Connectivity](#15-step-13-validate-end-to-end-connectivity)
 16. [Checkpoint Summary](#16-checkpoint-summary)
 17. [Known Errors and Solutions](#17-known-errors-and-solutions)
+18. [AI Assistant Dashboard Deployment](#18-ai-assistant-dashboard-deployment)
 
 ---
 
