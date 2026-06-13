@@ -1257,7 +1257,7 @@ sudo rm -rf /etc/containerd /var/lib/containerd /run/containerd
 
 ## 18. AI Assistant Dashboard Deployment
 
-The Dashboard is a minimalist, Nokia-themed conversational UI powered by Google's Gemini 2.5 Flash model. It connects to your Kubernetes cluster and Prometheus metrics server to provide real-time, interactive management of your 5G lab.
+The Dashboard is a minimalist, conversational UI powered by Google's Gemini 2.5 Flash model. It connects to your Kubernetes cluster and Prometheus metrics server to provide real-time, interactive management of your 5G lab.
 
 ### Prerequisites & Requirements
 - **OS**: Linux VM (Ubuntu/Debian recommended)
@@ -1268,9 +1268,8 @@ The Dashboard is a minimalist, Nokia-themed conversational UI powered by Google'
 
 ### Setup Instructions
 
-1. **Clone the repository:**
+1. **Go to Dashboard Folder:**
    ```bash
-   git clone https://github.com/mezlin/5G-Lab.git
    cd 5G-Lab/dashboard
    ```
 
